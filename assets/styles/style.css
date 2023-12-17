@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+  width: 1200px;
+  border-radius: 20px;
+  position: fixed;
+  left: 15%;
+  top: 2%;
+  z-index: 2;
+}
+.nav .logo img {
+  position: absolute;
+  width: 35px;
+  top: -13px;
+  left: 15px;
+}
+.nav .nav-buttons ul {
+  display: flex;
+}
+.nav .nav-buttons ul li {
+  list-style-type: none;
+}
+.nav .nav-buttons ul li a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #fff;
+}
+
+#slider {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+#slider .slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+}
+#slider .slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-content {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  left: 15%;
+  top: 20%;
+  -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+}
+.main-content .head-product img {
+  position: relative;
+  width: 450px;
+  left: 8.5%;
+}
+.main-content .title {
+  margin-top: 55px;
+  margin-left: 55px;
+  line-height: 0.7;
+  font-size: 100px;
+  font-weight: 700;
+}
+.main-content .title h1 {
+  color: white;
+}
+.main-content .title .button a {
+  border-radius: 15px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-size: 42px;
+  padding: 10px;
+  border: none;
+}
+.main-content .title .button a:hover {
+  transition: 0.4s ease-out;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
